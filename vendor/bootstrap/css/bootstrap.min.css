@@ -6,7 +6,11 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 @font-face{
 	font-family: "SFProDisplayLight";
-	src: url("../../../SF-Pro-Display-Light.ttf");
+	src: url("./SF-Pro-Display-Light.ttf");
+}
+#logo-main{
+	width:50%;
+	height:auto;
 }
 footer{
     padding: 20px;
@@ -23,7 +27,23 @@ p {
 .fa-facebook{
     font-size: 24pt !important;
 }
-.logo-main{
-	width:70%;
-	height:auto;
+
+
+li:hover {
+	color: #b42028 !important;
+}
+
+#mc_embed_signup .btn{
+	background-color: #b62029;
+	color: white;
+}
+
+#mc_embed_signup .email{
+	height: 50px;
+	padding: 0 20px;
+	width: 50%;
+}
+
+#mc_embed_signup{
+	margin: 30px 0;
 }
